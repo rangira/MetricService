@@ -7,8 +7,10 @@ app.use(express.json());
 
 let data = new Map();
 
+// Method to verify only integral values
 const testVal = (val) => /^\d+$/.test(val);
 
+//Method to process the metric sum in the data structure
 const processData = (data) => {
     const TIME_INTERVAL = 60*60*1000 // 1 hour
     let sum = 0;
