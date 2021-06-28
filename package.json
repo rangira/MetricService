@@ -1,0 +1,17 @@
+{
+  "name": "MetricService",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "jest": "^27.0.5",
+    "supertest": "^6.1.3"
+  }
+}
