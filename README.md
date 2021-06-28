@@ -8,3 +8,6 @@ To run the app:
 To run the tests:
 
 `npm test`
+
+`Note:` Currently the app uses port 3000. It can be run locally on http://localhost:3000/
+
